@@ -27,7 +27,7 @@ header {
 li {
     display: inline-block;
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a {
@@ -90,12 +90,150 @@ a {
     font-size: 22px;
     max-width: 600px;
     min-width: 100px;
+    margin-bottom: 100px;
 }
 
 p {
-    text-align: justify;
     padding:30px;
 }
 
+/*Kontakt*/
 
+.form-container {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+form {
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border-color: #dfdfdf;
+    border-style: solid;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+.nazwaFormularz {
+    text-align: center;
+}
+
+.imieINazwisko {
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+.email {
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.temat {
+    font-size: 18px;
+}
+
+#tekst-data-zamowienia {
+    font-size: 19px;
+}
+
+.data {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    min-width: 350px;
+    min-height: 200px;
+    max-width: 450px;
+    max-height: 500px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    color: #8d8d8d;
+}
+
+select {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.wyslij {
+    min-width: 150px;
+    padding: 7px;
+    background-color: rgb(75, 144, 102);
+    color:whitesmoke;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+.wyslij:hover {
+    background-color: rgb(108, 174, 133);
+}
+
+.usun {
+    min-width: 150px;
+    padding: 7px;
+    background-color: rgb(77, 74, 73);
+    color:whitesmoke;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+.usun:hover {
+    background-color: rgb(117, 114, 112);
+}
+
+#poleObowiazkowe {
+    font-size: 13px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #242424;
+    position: fixed;
+	bottom: 0;
+    width: 100vw;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #242424;
+    /* max-height: 300px; */
+    padding:25px;
+}
+
+.fb-logo {
+    max-height: 60px;
+    max-width: 60px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.insta-logo {
+    max-height: 60px;
+    max-width: 60px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.email-logo {
+    max-height: 60px;
+    max-width: 60px;
+    min-width: 20px;
+    min-height: 20px;
+}
